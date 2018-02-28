@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+.navbar-wrapper{
+    position:static;
+    float: right;
+}
+h1, p{
+  text-align: center;
+  position: relative;
+  color: mediumseagreen;
+  top: 50%;
+  vertical-align: middle;
+  font-family: 'Spectral SC', serif;
+}
+h1{
+  font-size: 5.5em;
+}
+.inner-cover{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(HeaderBG.jpeg) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+.inner-cover .inner-content{
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.inner-content, a{
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  max-width: none;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+body{
+  height: auto;
+  width: auto;
+}
